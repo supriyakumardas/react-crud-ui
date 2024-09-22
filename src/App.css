@@ -1,0 +1,171 @@
+.input-field {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1.5px solid black;
+  margin-bottom: 20px;
+}
+
+.input-field:focus {
+  box-shadow: 0 0 5pt 2pt #c882e4;
+  outline-width: 0px;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: -15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.row-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: larger;
+}
+
+.link-text {
+  text-decoration: none;
+}
+
+.bold-20 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bold-18 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.md-20 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.md-18 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.md-14 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+
+/* //user profile */
+.card {
+  width: 350px; /* Fixed width for the card */
+  background-color: #fff;
+  box-shadow: 5px 1px 15px 0 gray;
+  border-radius: 10px;
+  padding: 0px;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+  overflow: hidden; /* Hide overflow to prevent card from expanding */
+}
+
+.row-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-div {
+  width: 100%;
+  height: 300px;
+  background-color: #1677ff;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-holder {
+  width: 85%;
+  height: 85%;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name-container {
+  width: 100%;
+  overflow: hidden; /* Ensure no overflow issues */
+}
+
+.name-text {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  word-wrap: break-word; /* Break long words */
+  overflow-wrap: break-word; /* Additional support for wrapping */
+  white-space: normal; /* Ensure normal text wrapping */
+  text-transform: uppercase;
+}
+
+.details-container {
+  width: 100%;
+}
+
+
+
+.card-prop {
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  overflow: hidden; /* Hide overflow to maintain card width */
+}
+
+
+
+.prop-value{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.card-des{
+  width:82%;
+  word-wrap:break-word;
+}
